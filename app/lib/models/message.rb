@@ -32,4 +32,7 @@ class Message
     @@messages << self
   end
 
+  def all
+  	@@messages
+  end
 end
