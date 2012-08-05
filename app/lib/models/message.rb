@@ -38,4 +38,15 @@ class Message
   def self.all
   	@@messages
   end
+
+  def self.find(id)
+    @@messages.find { |message| message.id == id }
+  end
+
+  def update(params={})
+    params.each do |key, value|
+      self.send("#{key}=", value)
+    end
+  end
+
 end

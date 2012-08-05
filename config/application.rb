@@ -13,6 +13,8 @@ module PakyowApplication
 
       post 'messages', :MessagesController, :create
       get 'messages', :MessagesController, :index
+      get 'messages/edit/:id',:MessagesController,:edit
+      post 'messages/:id', :MessagesController, :update
     end
     
     middleware do
