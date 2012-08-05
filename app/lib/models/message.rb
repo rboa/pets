@@ -18,9 +18,12 @@ class Message
   # hash of :attribute_name => :attribute_value 
 
   def initialize(params={})
-    params.each do |key, value|
-      self.send("#{key}=", value)
-    end
+  	#puts "params is #{params.class}"
+  	#if !params.nil?
+	    params.each do |key, value|
+	      self.send("#{key}=", value)
+	    end
+	#end
   end
 
   # Sets the message id and adds it to the 
@@ -32,7 +35,7 @@ class Message
     @@messages << self
   end
 
-  def all
+  def self.all
   	@@messages
   end
 end

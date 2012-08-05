@@ -1,5 +1,5 @@
 class MessagesController
-	include Pakyouw::Helpers
+	include Pakyow::Helpers
 
 	def index
 		# Gets the full collection of stored messages

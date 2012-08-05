@@ -12,7 +12,7 @@ module PakyowApplication
       default :ApplicationController, :index
 
       post 'messages', :MessagesController, :create
-      get 'messages', :MessagesController, :create
+      get 'messages', :MessagesController, :index
     end
     
     middleware do

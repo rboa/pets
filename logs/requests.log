@@ -4,3 +4,340 @@ Completed in 5.161523818969727ms | 200 | [http://localhost:3000/]
 Processing / (127.0.0.1 at 2012-07-31 20:54:24 -0500) [GET]
 Completed in 3.395557403564453ms | 200 | [http://localhost:3000/]
 
+Processing / (127.0.0.1 at 2012-08-05 08:20:38 -0500) [GET]
+Completed in 3.0617713928222656ms | 200 | [http://localhost:3000/]
+
+Processing / (127.0.0.1 at 2012-08-05 09:07:01 -0500) [GET]
+Completed in 3.2396316528320312ms | 200 | [http://localhost:3000/]
+
+Processing /messages/new (127.0.0.1 at 2012-08-05 09:07:09 -0500) [GET]
+Completed in 14.651298522949219ms | 200 | [http://localhost:3000/messages/new]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:43:16 -0500) [POST]
+Processing /messages (127.0.0.1 at 2012-08-05 09:43:38 -0500) [GET]
+[500] undefined method `each' for nil:NilClass
+
+/home/dad/appleton/pets/app/lib/models/message.rb:21:in `initialize'
+/home/dad/appleton/pets/app/lib/messages_controller.rb:18:in `new'
+/home/dad/appleton/pets/app/lib/messages_controller.rb:18:in `create'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:521:in `block in build_controller_block'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:446:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:446:in `block in trampoline'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:445:in `catch'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:445:in `trampoline'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:223:in `block in call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:215:in `catch'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:215:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/reloader.rb:9:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/logger.rb:15:in `block in call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/logger.rb:14:in `catch'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/logger.rb:14:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/static.rb:15:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/rack-1.4.1/lib/rack/builder.rb:134:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/home/dad/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/dad/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/dad/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Completed in 2.92205810546875ms | 500 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:44:00 -0500) [GET]
+[500] undefined method `each' for nil:NilClass
+
+/home/dad/appleton/pets/app/lib/models/message.rb:21:in `initialize'
+/home/dad/appleton/pets/app/lib/messages_controller.rb:18:in `new'
+/home/dad/appleton/pets/app/lib/messages_controller.rb:18:in `create'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:521:in `block in build_controller_block'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:446:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:446:in `block in trampoline'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:445:in `catch'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:445:in `trampoline'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:223:in `block in call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:215:in `catch'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:215:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/reloader.rb:9:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/logger.rb:15:in `block in call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/logger.rb:14:in `catch'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/logger.rb:14:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/static.rb:15:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/rack-1.4.1/lib/rack/builder.rb:134:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/home/dad/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/dad/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/dad/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Completed in 1.7490386962890625ms | 500 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:44:39 -0500) [GET]
+[500] undefined method `each' for nil:NilClass
+
+/home/dad/appleton/pets/app/lib/models/message.rb:21:in `initialize'
+/home/dad/appleton/pets/app/lib/messages_controller.rb:18:in `new'
+/home/dad/appleton/pets/app/lib/messages_controller.rb:18:in `create'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:521:in `block in build_controller_block'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:446:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:446:in `block in trampoline'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:445:in `catch'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:445:in `trampoline'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:223:in `block in call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:215:in `catch'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:215:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/reloader.rb:9:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/logger.rb:15:in `block in call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/logger.rb:14:in `catch'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/logger.rb:14:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/static.rb:15:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/rack-1.4.1/lib/rack/builder.rb:134:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/home/dad/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/dad/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/dad/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Completed in 3.444194793701172ms | 500 | [http://localhost:3000/messages]
+
+Processing / (127.0.0.1 at 2012-08-05 09:44:52 -0500) [GET]
+Completed in 4.567623138427734ms | 200 | [http://localhost:3000/]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:44:57 -0500) [GET]
+[500] undefined method `each' for nil:NilClass
+
+/home/dad/appleton/pets/app/lib/models/message.rb:21:in `initialize'
+/home/dad/appleton/pets/app/lib/messages_controller.rb:18:in `new'
+/home/dad/appleton/pets/app/lib/messages_controller.rb:18:in `create'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:521:in `block in build_controller_block'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:446:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:446:in `block in trampoline'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:445:in `catch'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:445:in `trampoline'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:223:in `block in call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:215:in `catch'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:215:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/reloader.rb:9:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/logger.rb:15:in `block in call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/logger.rb:14:in `catch'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/logger.rb:14:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/static.rb:15:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/rack-1.4.1/lib/rack/builder.rb:134:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/home/dad/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/dad/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/dad/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Completed in 1.2176036834716797ms | 500 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:48:49 -0500) [GET]
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:09 -0500) [GET]
+[500] undefined method `each' for nil:NilClass
+
+/home/dad/appleton/pets/app/lib/models/message.rb:22:in `initialize'
+/home/dad/appleton/pets/app/lib/messages_controller.rb:18:in `new'
+/home/dad/appleton/pets/app/lib/messages_controller.rb:18:in `create'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:521:in `block in build_controller_block'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:446:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:446:in `block in trampoline'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:445:in `catch'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:445:in `trampoline'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:223:in `block in call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:215:in `catch'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/application.rb:215:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/reloader.rb:9:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/logger.rb:15:in `block in call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/logger.rb:14:in `catch'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/logger.rb:14:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/pakyow-core-0.7.2/pakyow-core/lib/core/static.rb:15:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/rack-1.4.1/lib/rack/builder.rb:134:in `call'
+/home/dad/.rvm/gems/ruby-1.9.3-p194@pets/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/home/dad/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/dad/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/dad/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Completed in 1.7673969268798828ms | 500 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 2.3305416107177734ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 2.1550655364990234ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 1.226663589477539ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 1.0867118835449219ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 1.3492107391357422ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 1.4109611511230469ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 1.111745834350586ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 0.9007453918457031ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 1.1456012725830078ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 1.0929107666015625ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 0.9036064147949219ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 1.2099742889404297ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 1.010894775390625ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 0.9348392486572266ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 1.4820098876953125ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 1.2586116790771484ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 1.8351078033447266ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 1.954793930053711ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 2.852916717529297ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 2.101898193359375ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:49:42 -0500) [GET]
+Completed in 2.2923946380615234ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 2.506732940673828ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 6.510496139526367ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 2.0859241485595703ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 2.2788047790527344ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 2.2847652435302734ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 2.2122859954833984ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 2.1584033966064453ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 2.0599365234375ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 2.210855484008789ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 2.3894309997558594ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 2.28118896484375ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 2.1440982818603516ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 10.417938232421875ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 1.0027885437011719ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 13.493776321411133ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 2.1648406982421875ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 2.218961715698242ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 1.8665790557861328ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 2.1407604217529297ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 2.0208358764648438ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:28 -0500) [GET]
+Completed in 1.7702579498291016ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:33 -0500) [GET]
+Completed in 2.279520034790039ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:33 -0500) [GET]
+Completed in 2.1600723266601562ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:33 -0500) [GET]
+Completed in 2.045154571533203ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:33 -0500) [GET]
+Completed in 2.065896987915039ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:33 -0500) [GET]
+Completed in 1.8589496612548828ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:33 -0500) [GET]
+Completed in 2.295255661010742ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:33 -0500) [GET]
+Completed in 1.1670589447021484ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:33 -0500) [GET]
+Completed in 1.0669231414794922ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:33 -0500) [GET]
+Completed in 0.9701251983642578ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:33 -0500) [GET]
+Completed in 1.0638236999511719ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:33 -0500) [GET]
+Completed in 1.165628433227539ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:33 -0500) [GET]
+Completed in 1.1768341064453125ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:33 -0500) [GET]
+Completed in 1.2769699096679688ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:33 -0500) [GET]
+Completed in 1.2476444244384766ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:33 -0500) [GET]
+Completed in 1.3194084167480469ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:33 -0500) [GET]
+Completed in 1.6276836395263672ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:33 -0500) [GET]
+Completed in 7.5016021728515625ms | 302 | [http://localhost:3000/messages]
+
+Processing /messages (127.0.0.1 at 2012-08-05 09:50:33 -0500) [GET]
