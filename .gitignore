@@ -25,7 +25,7 @@
 *.log
 *.sql
 *.sqlite
-logs/request.log
+logs/requests.log
 
 # OS generated files #
 ######################
